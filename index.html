@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Flex box Seba</title>
+
+  <!-- Enlaces a archivos CSS -->
+  <link rel="stylesheet" href="./css/globals.css" />
+  <link rel="stylesheet" href="./css/header_navbar.css">
+  <link rel="stylesheet" href="/css/mains.css">
+  <link rel="stylesheet" href="./css/mediasq.css">
+</head>
+<body>
+  <!-- header-navbar -->
+  <header>
+    <nav class="navbar">
+      <ul>
+        <li><a href="#">products</a></li>
+        <li><a href="#">discounts</a></li>
+        <li class="navbar-logo"><a href="#"><img src="./assets/img/logo.svg" alt="logo diamond" srcset=""></a></li>
+        <li><a href="#">our partners</a></li>
+        <li><a href="#">about us</a></li>
+      </ul>
+     </nav>
+     <nav class="hamb-menu">
+        <div>
+            <a href="#" class="icon-menu">
+                <img src="/assets/img/logo.svg" alt="Menu">
+            </a> 
+            <ul class="toggle-list">
+                <li ><a href="#">products</a></li>
+                <li ><a href="#">discounts</a></li>
+                <li ><a href="#">our partners</a></li>
+                <li><a href="#">about us</a></li>
+            </ul>
+        </div> 
+    </nav>
+  </header>
+
+
+  <container class="main-container">
+    <div class="main-text">
+        <h1>products</h1>
+        <h3>Affordable quality, every time.</h3>
+    </div>
+    <div class="main-container-card">
+        <!-- box 1 -->
+        <div class="card">
+            <div class="circle">
+                <img src="./assets/img/buuble 1.svg" alt="matte circle"></img>
+            </div>
+            <h2>matte</h2>
+            <hr>
+            <p>a subtle but elegant finish for low-touch and delicate surfaces</p>
+            <button href="#">explore</button>
+        </div>
+
+        <!-- Box 2 -->
+        <div class="card">
+            <div class="circle">
+                <img src="./assets/img/bubble2.svg" alt="semi-gloss circle"></img>
+            </div>            
+            <h2>semi-gloss</h2>
+            <hr>
+            <p>our signature finish for high-wear parts, details and surfaces</p>
+            <button href="#">explore</button>
+        </div>
+
+        <!-- Box 3 -->
+        <div class="card">
+            <div class="circle">
+                <img src="./assets/img/bubble3.svg" alt="high-gloss circle"></img>
+            </div>
+            <h2>high-gloss</h2>
+            <hr>
+            <p>an eye-stopping shine best for metal and other smooth surfaces</p>
+            <button href="#">explore</button>
+        </div>
+    </div>
+</container>
+
+  <!-- Llama el archivo de JavaScript externo -->
+  <script src="/js.js"></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+header {
+    width: 100%;
+  }
+  
+  .navbar ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    padding: 0 20px;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+ .navbar-logo {
+    display: flex;
+    align-items: center;
+  }
+  
+ .navbar-logo img {
+    height: 60px;
+    align-self: center;
+    margin-top: 25px;
+    margin-bottom: 20px;
+  }
+  
+  .navbar a {
+    display: flex;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.10em;
+    cursor: pointer;
+   
+  }
+  .navbar a:hover {
+    color: red;
+  }
+  
+  .navbar-dropdown {
+    display: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .hamb-menu{
+
+    display: none;
+  }
